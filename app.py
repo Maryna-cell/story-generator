@@ -278,4 +278,4 @@ with gr.Blocks(title="🌙 Генератор сказок на ночь") as de
         ],
     )
 
-demo.launch(theme=gr.themes.Soft(), server_name="0.0.0.0", server_port=7860)
+demo.launch(server_name="0.0.0.0", server_port=7860)
