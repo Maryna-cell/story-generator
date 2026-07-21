@@ -164,7 +164,7 @@ def remove_story(story_id, only_favorites):
 
 # --- Это фронтенд: красивое окно, которое видит пользователь ---
 
-with gr.Blocks(title="🌙 Генератор сказок на ночь") as demo:
+with gr.Blocks(title="🌙 Генератор сказок на ночь", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 🌙 Генератор сказок на ночь")
 
     with gr.Tab("Создать новую сказку"):
